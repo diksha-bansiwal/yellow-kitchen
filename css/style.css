@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.main {
+    width: 100%;
+    height: 1163px;
+
+
+}
+
+.header {
+    width: 100%;
+    height: 57px;
+    border-bottom: #E2E3E8 1px solid;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.label {
+    Width:
+        872px;
+    Height:
+        104px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 29px 0px;
+    position: absolute;
+    top: 608px;
+    display: flex;
+    padding-top: 24px;
+    padding-left: 99px;
+    gap: 26px;
+}
+
+.new {
+    Width:
+        1100px;
+
+    Height:
+        392px;
+
+
+    top: 786px;
+    left: 87px;
+    position: absolute;
+}
+
+.rest {
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+}
+
+.label:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: 0.5s;
+}
+
+.showw {
+    width: 26%;
+    /* margin-top: 1px; */
+    height: 42px;
+    /* margin-left: 176px; */
+    background-color: #f2f4fa;
+    text-align: center;
+    font-size: 15px;
+    color: #3f4255;
+    padding-top: 10px;
+}
+
+.showw:hover {
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    transition: 0.5s;
+}
+
+.imo {
+    float: left;
+}
+
+.imo:hover {
+    /* 
+    border: 1px solid; */
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    transition: 0.5s;
+
+}
+
+
+
+.gry {
+    width: 100%;
+    height: 250px;
+
+    position: relative;
+    background-color: #f2f4fa;
+
+}
+
+.nearest {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-left: 149px;
+    padding-top: 75px;
+    padding-bottom: 28px;
+}
+
+.smalll {
+    margin-left: 149px;
+    padding-top: 14px;
+}
+
+.input {
+    width: 276px;
+    height: 53px;
+    background-color: white;
+    position: absolute;
+    right: 185px;
+    bottom: 95px;
+    border-radius: 5px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+
+button {
+    width: 20%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffe145;
+    color: #b79c10;
+    font-weight: 600;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+.mega-menu {
+    width: 210px;
+    height: 520px;
+
+    position: absolute;
+    top: 43px;
+    right: -20px;
+    background-color: white;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.menu-item {
+    width: 160px;
+    height: 50px;
+    border-bottom: 1px solid #9093a6;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: #9093a6;
+
+}
+
+.hov:hover .mega-menu {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.6s;
+
+}
+
+.sp {
+    margin-top: 88px;
+    width: 100%;
+    height: 287px;
+
+}
+
+.showw2 {
+    height: 42px;
+    /* margin-left: 176px; */
+    background-color: #f2f4fa;
+    text-align: center;
+    font-size: 15px;
+    color: #3f4255;
+    padding-top: 10px;
+    width: 120px;
+    position: absolute;
+    right: 117px;
+}
+
+.showw2:hover {
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    transition: 0.5s;
+}
+
+.eight{
+ 
+    margin-left: 50px;
+    margin-left: 168px;
+    display: flex;
+    gap: 20px;
+    margin-top: 57px;
+}
+
+.pop:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+border-radius: 50%;
+transition: 0.5s;
+}
+
+.one{
+    position: relative;
+    
+}
+.circle{
+    position: absolute;
+    top: 1857px;
+    left: 388px;
+
+}
+
+.circle img:hover{
+transition: 0.5s;
+  transform: translateY(-10px);
+}
+
+.insta{
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.fourimg{
+    margin-left: 60px;
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+
+.immg{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    transition: transform 0.5s ease; 
+    transform: scale(0.9);
+}
+
+.immg:hover{
+    
+    transform: scale(1); 
+}
